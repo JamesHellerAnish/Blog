@@ -1,0 +1,20 @@
+
+user-agent: *
+Disallow: /server.js
+Sitemap: http://rewardfactory.in/sitemap.xml
+user-agent: *
+Disallow: /prepros-6.config
+
+user-agent: *
+Disallow: /css
+
+user-agent: *
+Disallow: /fonts
+
+user-agent: *
+Disallow: /js
+
+user-agent: *
+Disallow: /scss
+
+
