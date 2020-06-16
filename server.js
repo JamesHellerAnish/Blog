@@ -28,14 +28,13 @@ app.use('/',(req,res,next)=>{
     // console.log(req.originalUrl)
     console.log(req.headers.referer)
     let host = req.header("host")
-
-    if((req.headers.referer) && req.headers.referer.split('://')[0]=='https'){
-        res.redirect(301,'http://www.rewardfactory.in'+req.originalUrl)
-    }
     if(host.split('factory')[0]=='reward'){
         res.redirect(301,'http://www.rewardfactory.in'+req.originalUrl)
     }
-    next()
+    else{
+        next()
+    }
+    
 })
 app.use("/",express.static(__dirname))
 // app.get('*',(req,res)=>{    //should be kept just above the app.listen()
