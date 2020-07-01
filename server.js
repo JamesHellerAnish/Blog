@@ -1,7 +1,8 @@
 const express = require('express')
 const { runInNewContext } = require('vm')
+const { fstat } = require('fs')
 const app = express()
-
+const fs = require('fs')
 app.set("view engine", "hbs")
 
 app.use(express.json())
@@ -24,6 +25,8 @@ app.use(express.urlencoded({extended: true}))
 // app.get('/error',(req,res)=>{
 //     res.render('404')
 // })
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
+
 app.use('/',(req,res,next)=>{
     // console.log(req.originalUrl)
     console.log(req.headers.referer)
