@@ -53,8 +53,8 @@ app.use("/",express.static(__dirname))
     
 // })
 const options = {
-    key:'/etc/letsencrypt/live/rewardfactory.in/privkey.pem',
-    cert:'/etc/letsencrypt/live/rewardfactory.in/cert.pem',
+    key = fs.readFileSync('/etc/letsencrypt/live/rewardfactory.in/privkey.pem','utf8'),
+    cert = fs.readFileSync('/etc/letsencrypt/live/rewardfactory.in/cert.pem','utf8')
 }
 app.get('*',(req,res)=>{
     // console.log('Hello')
