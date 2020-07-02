@@ -3,6 +3,8 @@ const { runInNewContext } = require('vm')
 const { fstat } = require('fs')
 const app = express()
 const fs = require('fs')
+const http = require('http')
+const https = require('https')
 app.set("view engine", "hbs")
 
 app.use(express.json())
@@ -50,10 +52,15 @@ app.use("/",express.static(__dirname))
 //     app.use("/",express.static(__dirname))
     
 // })
-
+const options = {
+    key:'/etc/letsencrypt/live/rewardfactory.in/privkey.pem',
+    cert:'/etc/letsencrypt/live/rewardfactory.in/cert.pem',
+}
 app.get('*',(req,res)=>{
     // console.log('Hello')
     res.status(404).render('404')
 })
 
-app.listen(80, () => console.log("Server running on http://localhost:80"))
+const httpServer = http.createServer(app)
+const httpsServer = https.createServer(options,app)
+httpsServer.listen(80, () => console.log("Server running on http://localhost:80"))
