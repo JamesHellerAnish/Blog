@@ -1,7 +1,7 @@
 
 user-agent: *
 Disallow: /server.js
-Sitemap: http://rewardfactory.in/sitemap.xml
+
 user-agent: *
 Disallow: /prepros-6.config
 
@@ -17,4 +17,46 @@ Disallow: /js
 user-agent: *
 Disallow: /scss
 
+user-agent: *
+Disallow: /images
 
+user-agent: *
+Disallow: /node_modules
+
+user-agent: *
+Disallow: /views
+
+user-agent: *
+Disallow: /blog.html
+
+user-agent: *
+Disallow: /about.html
+
+user-agent: *
+Disallow: /contact.html
+
+user-agent: *
+Disallow: /disclaimer.html
+
+user-agent: *
+Disallow: /index.html
+
+user-agent: *
+Disallow: /scss
+
+user-agent: *
+Disallow: /.rnd
+
+user-agent: *
+Disallow: /favicon.ico
+
+user-agent: *
+Disallow: /package.json
+
+user-agent: *
+Disallow: /package-lock.json
+
+user-agent: *
+Disallow: /sitemap.xml
+
+Sitemap: http://rewardfactory.in/sitemap.xml
