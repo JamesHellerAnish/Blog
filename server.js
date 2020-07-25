@@ -25,8 +25,8 @@ app.use('/',(req,res,next)=>{
 app.use("/",express.static(__dirname))
 
 const options = {
-    key = fs.readFileSync('/etc/letsencrypt/live/rewardfactory.in/privkey.pem','utf8'),
-    cert = fs.readFileSync('/etc/letsencrypt/live/rewardfactory.in/cert.pem','utf8'),
+    key : fs.readFileSync('/etc/letsencrypt/live/rewardfactory.in/privkey.pem','utf8'),
+    cert : fs.readFileSync('/etc/letsencrypt/live/rewardfactory.in/cert.pem','utf8'),
     ca: fs.readFileSync('/etc/letsencrypt/live/rewardfactory.in/chain.pem','utf8')
 }
 app.get('*',(req,res)=>{
