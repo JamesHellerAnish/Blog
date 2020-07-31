@@ -59,4 +59,11 @@ Disallow: /package-lock.json
 user-agent: *
 Disallow: /sitemap.xml
 
+user-agent: Mediapartners-Google
+Disallow: /privacy.html
+Disallow: /index.html
+Disallow: /disclaimer.html
+Disallow: /contact.html
+Disallow: /about.html
+
 Sitemap: http://rewardfactory.in/sitemap.xml
