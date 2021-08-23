@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-23T19:44:21.264Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="bUemSjJAoTCmpqArtIJU" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-23T20:03:19.904Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="OUYNkuApo5KUd-PWDm52" version="14.9.8" type="github">
   <diagram id="o0DlsNENsoFimQwdIdRT" name="Page-1">
     <mxGraphModel dx="1435" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#283618" math="0" shadow="0">
       <root>
@@ -74,8 +74,8 @@
         <mxCell id="IQcZgMmbsIFZZEIsL7-R-34" value="Coupon Discount&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" parent="1" vertex="1">
           <mxGeometry x="1860" y="399.69" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IQcZgMmbsIFZZEIsL7-R-36" value="Brand Discount&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" parent="1" vertex="1">
-          <mxGeometry x="2020" y="399.69" width="100" height="40" as="geometry" />
+        <mxCell id="IQcZgMmbsIFZZEIsL7-R-36" value="Discount&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" parent="1" vertex="1">
+          <mxGeometry x="2025" y="395" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IQcZgMmbsIFZZEIsL7-R-38" value="Discount&amp;nbsp;" style="triangle;whiteSpace=wrap;html=1;fontColor=#FEFAE0;rotation=90;fillColor=#BC6C25;strokeColor=#DDA15E;" parent="1" vertex="1">
           <mxGeometry x="1846.88" y="280.32" width="58.75" height="82.5" as="geometry" />
@@ -244,6 +244,21 @@
         </mxCell>
         <mxCell id="5yPDVFOMv4cVIeS-5JL2-32" value="Name" style="ellipse;whiteSpace=wrap;html=1;rotation=0;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" vertex="1" parent="1">
           <mxGeometry x="1460" y="435" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="5yPDVFOMv4cVIeS-5JL2-38" value="Percentage&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;rotation=0;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="404.69" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="5yPDVFOMv4cVIeS-5JL2-39" value="Limit &amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;rotation=0;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="450" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="5yPDVFOMv4cVIeS-5JL2-40" value="Flavor Id" style="ellipse;whiteSpace=wrap;html=1;rotation=0;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="500" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5yPDVFOMv4cVIeS-5JL2-41" value="Flavor Id" style="ellipse;whiteSpace=wrap;html=1;rotation=0;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="550" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5yPDVFOMv4cVIeS-5JL2-42" value="Flavor Id" style="ellipse;whiteSpace=wrap;html=1;rotation=0;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="600" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
